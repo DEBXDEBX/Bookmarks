@@ -1,0 +1,99 @@
+body{
+	background: linear-gradient(to bottom, #f8b500, #fff); 
+  background-repeat: no-repeat;
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* borrowed from bootsgtrap */
+
+.form-control-lg{
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #9622be;
+  border-color: #9622be;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+.btn:hover, .btn:focus {
+  text-decoration: none;
+}
+
+/* End borrowed from bootsgtrap */
+
+a{
+	color: #9622be;
+}
+
+.center {
+    margin: 10px 10px 10px 10px;
+    padding: 0 auto;
+    width: 150px;
+}
+
+a:hover { 
+	/* font-size: 133%; */
+	color: #fff;
+}
+
+h1{
+	color: #9622be;
+	text-shadow: 2px 2px #000000;
+	text-align: center;
+}
+h2{
+	color: #9622be;
+	text-shadow: 2px 2px #f8b500;
+	text-align: center;
+}
+
+#myForm{
+		  margin: 0 auto;
+     width: 324px; 
+}
+
+#getAveBtn{
+	margin-left: 35px;
+	background-color: #8f45ae;
+	color: #f8b500;
+}
+#getAveBtn:hover{
+	color: #fff;
+	background-color: #9622be;
+}
+#clearFormBtn{
+	margin-left: 30px;
+}
+input[type="text"]{
+	margin: 5px auto;
+}
+
+.myFlexBox{
+	/*display: inline-flex;*/
+	display: inline-flex;
+	flex-wrap: none;
+	justify-content: space-around;
+	/* border: 2px solid red; */
+}

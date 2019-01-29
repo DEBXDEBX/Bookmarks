@@ -1,0 +1,190 @@
+
+
+
+h1,h3,h6{
+	color: #f8b500;
+	text-shadow: 2px 2px #9622be;
+	text-align: center;
+}
+body{
+background: linear-gradient(to bottom, #f8b500, #fff); 
+background-repeat: no-repeat;
+font-family: 'Permanent Marker', cursive;
+}
+
+.myFlexBox{
+	/*display: inline-flex;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 3px 10px 3px 10px;
+}
+
+.myFlexItem{
+	background: #f5f3f6;
+	border-left: 4mm ridge rgb(170, 50, 220, .6);
+  border-bottom: thick double #a173b4;
+
+  margin: 20px 7px 20px 7px;  
+                
+  padding: 5px 10px 5px 10px;
+
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  border-radius: 10% / 50%;
+}
+
+a{
+	font-size: 22px;
+	font-weight: bold;
+	color: #9622be;
+	text-decoration: underline;
+	margin: 8px;
+}
+
+a:hover{
+	color: #f8b500;
+}
+
+.myAddBtn:hover{
+	color: white;
+}
+
+.myAddBtn{
+  background-color: #8f45ae;
+	color: #f8b500;
+}
+
+.myAddTabBtn{
+	background-color: #8f45ae;
+	color: #f8b500;
+}
+
+
+form{
+	/* margin-left: 210px; */
+	display: flex;
+	justify-content: center;
+}
+
+#bottomDiv{
+height: 100px;
+}
+
+.center {
+    margin: 5px auto;
+    padding: 0px auto;
+    width: 150px;
+}
+
+.myPrograms{
+	 background-color: #c87fe6;
+}
+
+hr{
+	width: 200px;
+	color: #8f45ae;
+  background-color: #aa32dc99;
+  height: 2px;
+}
+#programs{
+margin-top: 40px;
+}
+.delete-item{
+color: red;
+display: none;
+}
+
+
+
+.myFlexItem:hover .delete-item{
+	text-align: center;
+	/* font-size: 2em; */
+	display: inline;
+	
+}
+
+.moveUp{
+	color: green;
+	display: inline;
+}
+
+ .myFlexItem:hover .moveUp{
+	/* text-align: center; */
+	/* font-size: 1.5em; */
+	/* display: inline; */
+} 
+
+.moveDown{
+	color: blue;
+	display: inline;
+}
+ 
+
+.myFlexItem:hover .moveDown{
+	/* text-align: center; */
+	/* font-size: 1.5em; */
+	/* display: inline; */
+} 
+
+
+
+span{
+	
+	font-weight: bold;
+}
+
+/* .myFlexItem:hover .shrink{
+font-size: 0.98em;
+} */
+
+/* this hides and shows when you hover */
+.spanDiv{
+	display: none;
+
+}
+.myFlexItem:hover .spanDiv{
+	text-align: center;
+	display: block;
+}
+
+#loading{
+	display:none;
+
+	margin: 5px auto;
+}
+.centerImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10% / 50%;
+	width: 44px;
+
+	/* width: 50%; */
+}
+.success, .error {
+	color: white;
+	padding: 5px;
+	margin: 5px 0 15px 0;
+	width: 50%;
+	text-align: center;
+	margin: 20px auto;
+	border-radius: 25px;
+}
+
+.success {
+	background: green;
+}
+
+.error {
+	background: red;
+}
+
+/* this hides and shows when you hover */
+.h6arrow{
+	display: none;
+	color: #9622be;
+}
+.header:hover .h6arrow{
+	text-align: center;
+	display: block;
+}
